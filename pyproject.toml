@@ -1,3 +1,7 @@
+[project]
+name = "statsmodels"
+version = "0.15.0.dev0"
+
 [build-system]
 # These are strictly build requirements. Runtime requirements are listed in
 # INSTALL_REQUIRES in setup.py
@@ -9,6 +13,3 @@ requires = [
     "setuptools_scm[toml]>=8,<9"
 ]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools_scm]
-write_to = "statsmodels/_version.py"
